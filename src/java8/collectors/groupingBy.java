@@ -1,11 +1,17 @@
 package java8.collectors;
 
+import com.sun.xml.internal.fastinfoset.util.StringIntMap;
+
 import java.util.Arrays;
+import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import static java.util.stream.Collectors.toList;
 
 /**
  * @ProjectName: java_basics
@@ -46,6 +52,12 @@ public class groupingBy {
         //3. groupingBy(Function<? super T,? extends K> classifier,
         //              Supplier<M> mapFactory,
         //              Collector<? super T,A,D> downstream)
-        //
+        //  Modifying the Return Map Type with the supplier
+        //e.g  to compute the set of last names of people in each city, where the city names are sorted:
+        //Map<City, Set<String>> namesByCity = people.stream().
+        // collect(groupingBy(Person::getCity,
+        //                      TreeMap::new,
+        //                      mapping(Person::getLastName, toSet())));
     }
 }
+
