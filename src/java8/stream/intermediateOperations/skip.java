@@ -7,18 +7,15 @@ import java.util.Arrays;
  * @Package: java8.stream.intermediateOperations
  * @Description:
  * @Author: Jacob Zhang
- * @CreateDate: 2018/1/25/025 16:03
- * @UpdateDate: 2018/1/25/025 16:03
+ * @CreateDate: 2018/1/25/025 17:23
+ * @UpdateDate: 2018/1/25/025 17:23
  */
-public class map {
+public class skip {
 
     public static void main(String[] args) {
 
         int a[] = {1,2,3,3,3,3,3,4,5,6,7};
 
-        Arrays.stream(a).map(e -> e*=2).forEach(System.out::print);
-
-        //mapToInt
-        int[] intArray = Arrays.asList(1,1,3,4,5,3,2,8).stream().mapToInt(x -> x).toArray();
+        Arrays.stream(a).skip(4).forEach(System.out::println);
     }
 }
