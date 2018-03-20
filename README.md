@@ -3,7 +3,7 @@ Java基础
 
 >此项目为本人对Java常用类以及新特性的总结，主要参考java8官方API 与 Jenkov.com教程，不定期更新。
 
->[官方API](https://docs.oracle.com/javase/8/docs/api/)&ensp;[Jenkov](http://tutorials.jenkov.com/)&ensp;
+>[官方API](https://docs.oracle.com/javase/8/docs/api/)&ensp;&ensp;[Jenkov](http://tutorials.jenkov.com/)&ensp;
 
 目录
 ----
