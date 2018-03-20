@@ -19,7 +19,7 @@ Java基础
 
 
 ### Java Concurrency
-&emsp;[java.lang.Thread及其相关类](https://github.com/whetherlove/java_basics/tree/master/src/nio)<br />
+&emsp;[java.lang.Thread及其相关类](https://github.com/whetherlove/java_basics/tree/master/src/concurrency/thread)<br />
 &emsp;[java.util.concurrent](https://github.com/whetherlove/java_basics/tree/master/src/nio)<br />
 
 
